@@ -1,0 +1,89 @@
+{
+  "@context": "http://greendelta.github.io/olca-schema/context.jsonld",
+  "@type": "Process",
+  "@id": "f33ddcd7-c4b2-5a0d-8585-1894e0f80ae8",
+  "name": "Chargeur de Batteries Li-ion/LiPo",
+  "processType": "UNIT_PROCESS",
+  "category": {
+    "@type": "Category",
+    "name": "ESOS-Formation",
+    "modelType": "PROCESS"
+  },
+  "location": {
+    "@type": "Location",
+    "name": "FR"
+  },
+  "exchanges": [
+    {
+      "@type": "Exchange",
+      "internalId": 1,
+      "avoidedProduct": false,
+      "input": false,
+      "amount": 1.0,
+      "unit": {
+        "name": "unit"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "Chargeur de Batteries Li-ion/LiPo",
+        "description": ""
+      },
+      "quantitativeReference": true
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 2,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 1.0,
+      "unit": {
+        "name": "unit"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "Carte Chargeur production",
+        "description": ""
+      },
+      "defaultProvider": {
+        "@id": "d9f1a7ec-be9a-5417-aedb-195a650361a4"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 3,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 1.0,
+      "unit": {
+        "name": "unit"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "Carte Contrôle & Mesure production",
+        "description": ""
+      },
+      "defaultProvider": {
+        "@id": "7aec8c21-580a-552f-9151-48eccfc0bf5d"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 4,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 1.0,
+      "unit": {
+        "name": "unit"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "PCB et Assemblage production",
+        "description": ""
+      },
+      "defaultProvider": {
+        "@id": "4163c044-2788-5a05-8a08-01fc8424c7b4"
+      }
+    }
+  ],
+  "database": "ESOS-Formation"
+}

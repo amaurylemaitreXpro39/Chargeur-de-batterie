@@ -1,0 +1,708 @@
+{
+  "processes": [
+    {
+      "@context": "http://greendelta.github.io/olca-schema/context.jsonld",
+      "@type": "Process",
+      "@id": "d9f1a7ec-be9a-5417-aedb-195a650361a4",
+      "name": "Carte Chargeur production",
+      "processType": "UNIT_PROCESS",
+      "category": {
+        "@type": "Category",
+        "name": "ESOS-Formation",
+        "modelType": "PROCESS"
+      },
+      "location": {
+        "@type": "Location",
+        "name": "FR"
+      },
+      "exchanges": [
+        {
+          "@type": "Exchange",
+          "internalId": 1,
+          "avoidedProduct": false,
+          "input": false,
+          "amount": 1.0,
+          "unit": {
+            "name": "unit"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "Carte Chargeur production",
+            "description": ""
+          },
+          "quantitativeReference": true
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 2,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 8e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for integrated circuit, logic type",
+            "description": "ic cn3765 sop-8"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 3,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 3e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for inductor, low value multilayer chip",
+            "description": "inductor 10uH cms"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 4,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 1e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for capacitor, for surface-mounting",
+            "description": "capacitor 0402 10uF in"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 5,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 1e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for capacitor, for surface-mounting",
+            "description": "capacitor 0402 22uF out"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 6,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 5e-06,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for resistor, surface-mounted",
+            "description": "resistor 0402 prog"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 7,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 2e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for diode, glass-, for surface-mounting",
+            "description": "diode schottky sod-123"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 8,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 4e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for integrated circuit, logic type",
+            "description": "ic ldo buck sot-23"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 9,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 0.0003,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for electric connector, peripheral type buss",
+            "description": "usb type-c"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 10,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 1e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for capacitor, for surface-mounting",
+            "description": "capacitor 0402 decoupl"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 11,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 8e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for integrated circuit, logic type",
+            "description": "ic bms 1s sop-8"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 12,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 4e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for transistor, surface-mounted",
+            "description": "mosfet n sot-23 charge"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 13,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 4e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for transistor, surface-mounted",
+            "description": "mosfet n sot-23 disch"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 14,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 5e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for resistor, surface-mounted",
+            "description": "shunt resistor 2512"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 15,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 0.0002,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for electric connector, peripheral component interconnect buss",
+            "description": "jst ph 2.0mm"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 16,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 0.0012,
+          "unit": {
+            "name": "m2"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for printed wiring board, for surface mounting, Pb free surface",
+            "description": "pcb chargeur 2 layers"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 17,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 0.0012,
+          "unit": {
+            "name": "m2"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for mounting, surface mount technology, Pb-free solder",
+            "description": "pcb mounting chargeur"
+          }
+        }
+      ],
+      "database": "ESOS-Formation"
+    },
+    {
+      "@context": "http://greendelta.github.io/olca-schema/context.jsonld",
+      "@type": "Process",
+      "@id": "7aec8c21-580a-552f-9151-48eccfc0bf5d",
+      "name": "Carte Contrôle & Mesure production",
+      "processType": "UNIT_PROCESS",
+      "category": {
+        "@type": "Category",
+        "name": "ESOS-Formation",
+        "modelType": "PROCESS"
+      },
+      "location": {
+        "@type": "Location",
+        "name": "FR"
+      },
+      "exchanges": [
+        {
+          "@type": "Exchange",
+          "internalId": 1,
+          "avoidedProduct": false,
+          "input": false,
+          "amount": 1.0,
+          "unit": {
+            "name": "unit"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "Carte Contrôle & Mesure production",
+            "description": ""
+          },
+          "quantitativeReference": true
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 2,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 6e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for integrated circuit, logic type",
+            "description": "ic max17055 wlp"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 3,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 2e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for resistor, surface-mounted",
+            "description": "shunt resistor 0805"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 4,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 1e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for capacitor, for surface-mounting",
+            "description": "capacitor 0402 decoupl"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 5,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 5e-06,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for resistor, surface-mounted",
+            "description": "resistor 0402 pullup i2c"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 6,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 3.6e-05,
+          "unit": {
+            "name": "m2"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for wafer, fabricated, for integrated circuit",
+            "description": "esp32 module"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 7,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 0.001,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for liquid crystal display, unmounted",
+            "description": "oled lcd 0.96in"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 8,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 0.0001,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for integrated circuit, logic type",
+            "description": "ic ldo ams1117 sot-223"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 9,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 1e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for capacitor, for surface-mounting",
+            "description": "capacitor 0402 esp32"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 10,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 5e-06,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for resistor, surface-mounted",
+            "description": "ntc 10k 0402"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 11,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 5e-06,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for resistor, surface-mounted",
+            "description": "resistor 0402 divider"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 12,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 0.002,
+          "unit": {
+            "name": "m2"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for printed wiring board, for surface mounting, Pb free surface",
+            "description": "pcb controle 2 layers"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 13,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 0.002,
+          "unit": {
+            "name": "m2"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for mounting, surface mount technology, Pb-free solder",
+            "description": "pcb mounting controle"
+          }
+        }
+      ],
+      "database": "ESOS-Formation"
+    },
+    {
+      "@context": "http://greendelta.github.io/olca-schema/context.jsonld",
+      "@type": "Process",
+      "@id": "4163c044-2788-5a05-8a08-01fc8424c7b4",
+      "name": "PCB et Assemblage production",
+      "processType": "UNIT_PROCESS",
+      "category": {
+        "@type": "Category",
+        "name": "ESOS-Formation",
+        "modelType": "PROCESS"
+      },
+      "location": {
+        "@type": "Location",
+        "name": "GLO"
+      },
+      "exchanges": [
+        {
+          "@type": "Exchange",
+          "internalId": 1,
+          "avoidedProduct": false,
+          "input": false,
+          "amount": 1.0,
+          "unit": {
+            "name": "unit"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "PCB et Assemblage production",
+            "description": ""
+          },
+          "quantitativeReference": true
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 2,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 0.0012,
+          "unit": {
+            "name": "m2"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for printed wiring board, for surface mounting, Pb free surface",
+            "description": "pcb chargeur fr4 2 couches"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 3,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 0.002,
+          "unit": {
+            "name": "m2"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for printed wiring board, for surface mounting, Pb free surface",
+            "description": "pcb controle fr4 2 couches"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 4,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 5e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for mounting, surface mount technology, Pb-free solder",
+            "description": "brasure sac305 refusion"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 5,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 2e-05,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for mounting, surface mount technology, Pb-free solder",
+            "description": "pate a braser sac305"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 6,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 0.0004,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for electric connector, peripheral component interconnect buss",
+            "description": "header 2.54mm 10pin x2"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 7,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 0.002,
+          "unit": {
+            "name": "kg"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "market for cable, ribbon cable, 20-pin, with plugs",
+            "description": "nappe 10 conducteurs"
+          }
+        }
+      ],
+      "database": "ESOS-Formation"
+    },
+    {
+      "@context": "http://greendelta.github.io/olca-schema/context.jsonld",
+      "@type": "Process",
+      "@id": "f33ddcd7-c4b2-5a0d-8585-1894e0f80ae8",
+      "name": "Chargeur de Batteries Li-ion/LiPo",
+      "processType": "UNIT_PROCESS",
+      "category": {
+        "@type": "Category",
+        "name": "ESOS-Formation",
+        "modelType": "PROCESS"
+      },
+      "location": {
+        "@type": "Location",
+        "name": "FR"
+      },
+      "exchanges": [
+        {
+          "@type": "Exchange",
+          "internalId": 1,
+          "avoidedProduct": false,
+          "input": false,
+          "amount": 1.0,
+          "unit": {
+            "name": "unit"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "Chargeur de Batteries Li-ion/LiPo",
+            "description": ""
+          },
+          "quantitativeReference": true
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 2,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 1.0,
+          "unit": {
+            "name": "unit"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "Carte Chargeur production",
+            "description": ""
+          },
+          "defaultProvider": {
+            "@id": "d9f1a7ec-be9a-5417-aedb-195a650361a4"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 3,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 1.0,
+          "unit": {
+            "name": "unit"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "Carte Contrôle & Mesure production",
+            "description": ""
+          },
+          "defaultProvider": {
+            "@id": "7aec8c21-580a-552f-9151-48eccfc0bf5d"
+          }
+        },
+        {
+          "@type": "Exchange",
+          "internalId": 4,
+          "avoidedProduct": false,
+          "input": true,
+          "amount": 1.0,
+          "unit": {
+            "name": "unit"
+          },
+          "flow": {
+            "@type": "Flow",
+            "name": "PCB et Assemblage production",
+            "description": ""
+          },
+          "defaultProvider": {
+            "@id": "4163c044-2788-5a05-8a08-01fc8424c7b4"
+          }
+        }
+      ],
+      "database": "ESOS-Formation"
+    }
+  ]
+}

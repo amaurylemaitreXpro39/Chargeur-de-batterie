@@ -1,0 +1,125 @@
+{
+  "@context": "http://greendelta.github.io/olca-schema/context.jsonld",
+  "@type": "Process",
+  "@id": "4163c044-2788-5a05-8a08-01fc8424c7b4",
+  "name": "PCB et Assemblage production",
+  "processType": "UNIT_PROCESS",
+  "category": {
+    "@type": "Category",
+    "name": "ESOS-Formation",
+    "modelType": "PROCESS"
+  },
+  "location": {
+    "@type": "Location",
+    "name": "GLO"
+  },
+  "exchanges": [
+    {
+      "@type": "Exchange",
+      "internalId": 1,
+      "avoidedProduct": false,
+      "input": false,
+      "amount": 1.0,
+      "unit": {
+        "name": "unit"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "PCB et Assemblage production",
+        "description": ""
+      },
+      "quantitativeReference": true
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 2,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 0.0012,
+      "unit": {
+        "name": "m2"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for printed wiring board, for surface mounting, Pb free surface",
+        "description": "pcb chargeur fr4 2 couches"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 3,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 0.002,
+      "unit": {
+        "name": "m2"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for printed wiring board, for surface mounting, Pb free surface",
+        "description": "pcb controle fr4 2 couches"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 4,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 5e-05,
+      "unit": {
+        "name": "kg"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for mounting, surface mount technology, Pb-free solder",
+        "description": "brasure sac305 refusion"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 5,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 2e-05,
+      "unit": {
+        "name": "kg"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for mounting, surface mount technology, Pb-free solder",
+        "description": "pate a braser sac305"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 6,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 0.0004,
+      "unit": {
+        "name": "kg"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for electric connector, peripheral component interconnect buss",
+        "description": "header 2.54mm 10pin x2"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 7,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 0.002,
+      "unit": {
+        "name": "kg"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for cable, ribbon cable, 20-pin, with plugs",
+        "description": "nappe 10 conducteurs"
+      }
+    }
+  ],
+  "database": "ESOS-Formation"
+}

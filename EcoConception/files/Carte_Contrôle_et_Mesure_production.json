@@ -1,0 +1,215 @@
+{
+  "@context": "http://greendelta.github.io/olca-schema/context.jsonld",
+  "@type": "Process",
+  "@id": "7aec8c21-580a-552f-9151-48eccfc0bf5d",
+  "name": "Carte Contrôle & Mesure production",
+  "processType": "UNIT_PROCESS",
+  "category": {
+    "@type": "Category",
+    "name": "ESOS-Formation",
+    "modelType": "PROCESS"
+  },
+  "location": {
+    "@type": "Location",
+    "name": "FR"
+  },
+  "exchanges": [
+    {
+      "@type": "Exchange",
+      "internalId": 1,
+      "avoidedProduct": false,
+      "input": false,
+      "amount": 1.0,
+      "unit": {
+        "name": "unit"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "Carte Contrôle & Mesure production",
+        "description": ""
+      },
+      "quantitativeReference": true
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 2,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 6e-05,
+      "unit": {
+        "name": "kg"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for integrated circuit, logic type",
+        "description": "ic max17055 wlp"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 3,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 2e-05,
+      "unit": {
+        "name": "kg"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for resistor, surface-mounted",
+        "description": "shunt resistor 0805"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 4,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 1e-05,
+      "unit": {
+        "name": "kg"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for capacitor, for surface-mounting",
+        "description": "capacitor 0402 decoupl"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 5,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 5e-06,
+      "unit": {
+        "name": "kg"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for resistor, surface-mounted",
+        "description": "resistor 0402 pullup i2c"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 6,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 3.6e-05,
+      "unit": {
+        "name": "m2"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for wafer, fabricated, for integrated circuit",
+        "description": "esp32 module"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 7,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 0.001,
+      "unit": {
+        "name": "kg"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for liquid crystal display, unmounted",
+        "description": "oled lcd 0.96in"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 8,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 0.0001,
+      "unit": {
+        "name": "kg"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for integrated circuit, logic type",
+        "description": "ic ldo ams1117 sot-223"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 9,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 1e-05,
+      "unit": {
+        "name": "kg"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for capacitor, for surface-mounting",
+        "description": "capacitor 0402 esp32"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 10,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 5e-06,
+      "unit": {
+        "name": "kg"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for resistor, surface-mounted",
+        "description": "ntc 10k 0402"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 11,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 5e-06,
+      "unit": {
+        "name": "kg"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for resistor, surface-mounted",
+        "description": "resistor 0402 divider"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 12,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 0.002,
+      "unit": {
+        "name": "m2"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for printed wiring board, for surface mounting, Pb free surface",
+        "description": "pcb controle 2 layers"
+      }
+    },
+    {
+      "@type": "Exchange",
+      "internalId": 13,
+      "avoidedProduct": false,
+      "input": true,
+      "amount": 0.002,
+      "unit": {
+        "name": "m2"
+      },
+      "flow": {
+        "@type": "Flow",
+        "name": "market for mounting, surface mount technology, Pb-free solder",
+        "description": "pcb mounting controle"
+      }
+    }
+  ],
+  "database": "ESOS-Formation"
+}
